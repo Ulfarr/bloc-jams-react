@@ -32,6 +32,7 @@ class Album extends Component {
              <col id="song-duration-column" />
            </colgroup>  
            <tbody>
+             
            </tbody>
          </table>
       </section>
