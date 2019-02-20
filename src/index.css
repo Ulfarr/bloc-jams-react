@@ -6,6 +6,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 255, 0.242);
+
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th {
+  align-content: center;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.ion-icons:hover {
+  background-color: darkcyan;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: darkcyan;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 50%;
+
 }
 
 code {
