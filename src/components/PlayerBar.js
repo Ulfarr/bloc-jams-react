@@ -41,11 +41,10 @@ import React, { Component } from 'react';
 							max="1"
 							min="0"
               step="0.01"
-							onChange={this.props.handleVolumeChange}
-						/>
-					<div className="icon ion-volume-low" onClick={ this.props.handleVolumeDownClick}>Vol -</div>
-				  <div className="icon ion-volume-high" onClick={ this.props.handleVolumeUpClick}>Vol +</div>
+              onChange={this.props.handleVolumeChange}
+              />
          </section>
+         
        </section>
      );
    }

@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
 
+
 class Album extends Component {
   constructor(props) {
     super(props);
@@ -173,10 +174,8 @@ class Album extends Component {
            handleVolumeChange={(e) => this.handleVolumeChange(e)}
            formatTime={(e) => this.formatTime(e)}
            artist={this.state.album.artist}
-           handleVolumeUpClick={(e) => this.handleVolumeUpClick(e)}
-           handleVolumeDownClick={(e) => this.handleVolumeDownClick(e)}
-         />
-         />
+
+          />
       </section>
     );
   }
